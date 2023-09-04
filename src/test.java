@@ -83,7 +83,7 @@ do {
     } else {
         System.out.println("Login Failed");
     }
-    System.out.println("Do you want to run again: (Y/N");
+    System.out.println("Do you want to run again: (Y/N)");
     run = input.next().charAt(0);
 }while( run =='Y');
     }
